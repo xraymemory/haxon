@@ -1,6 +1,8 @@
 # haxon
 Tooling to retrieve data from Axon Body Cams (aka the ones cops wear)
 
+Initial tweet thread & context here https://mobile.twitter.com/unrealchill/status/1283418136738496513
+
 ## Features
 * Read data from Axon model body cams including video
 
