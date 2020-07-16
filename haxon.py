@@ -42,8 +42,8 @@ if __name__ == "__main__":
 
 	if output_location[-1] != '/':
 		output_location = output_location + '/'	
-
-  print("Copying data from Micro SD")
+	
+	print("Copying data from Micro SD")
 	copy_data(sd_disk_loc, output_location)
-  print("Carving out files from disk img")
+	print("Carving out files from disk img")
 	retrieve_files(output_location)
