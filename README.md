@@ -1,5 +1,5 @@
 # haxon
-Tooling to retrieve data from Axon Body Cams (aka the ones cops wear), first and second generation models
+Python 3 tooling to retrieve data from Axon Body Cams (aka the ones cops wear), first and second generation models
 
 Initial tweet thread & context here https://mobile.twitter.com/unrealchill/status/1283418136738496513
 
@@ -17,7 +17,7 @@ Axon Body Cams look imposing and secure but are actually quite trivial to open. 
 
 Insert the micro SD into your PC's port / adapter. The filesystem won't be recognized (more on that later) but on OSX/Linux systems will be readable at a /dev/ location (in my case, /dev/disk2). Then run e.g.
 
-`python haxon.py /dev/disk2 ~/hax/output/location`
+`python3 haxon.py /dev/disk2 ~/hax/output/location`
 
 where the first arg is the location of the SD card and the second is where you would like the data to be outputted. Haxon copies the data over using `(g)dd` and then `foremost` to reconstitute the files and write them to disk. 
 
