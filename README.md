@@ -1,5 +1,5 @@
 # haxon
-Python 3 tooling to retrieve data from Axon Body Cams (aka the ones cops wear), first and second generation models
+Python 3 tooling to retrieve data from Axon Body Cams - aka the ones cops wear. This code should work for first and second generation models
 
 Initial tweet thread & context here https://mobile.twitter.com/unrealchill/status/1283418136738496513
 
