@@ -20,5 +20,6 @@ First and foremost, this evidence is collected on the public and therefore belon
 Axon Body Cams look imposing and secure but are actually quite trivial to open. Take any thin edge (box cutter, razor blade, even house keys can work) and work it flat into the ridge corners. Turn it and you should feel the housing start to give and eventually you can pop it off into two halves: the battery and the board. The "board" half will have two circuit boards, one screwed into the housing and a smaller strip secured with orange tape. Flip the smaller board and you'll see the micro SD card with a nice orange tamper tape garnish. Peel it back (but hold on to it if you feel like making your tampering "tamper-proof" later on!) and the card is yours.
 
 ## TO DO
+* Make available on pypi 
 * Figure out what sort of filesystem / structure the SD card uses so it can be formatted and wiped correctly
 * Dump Axon Body Cam 2 firmware and RE functionality 
