@@ -5,11 +5,11 @@ Initial tweet thread & context here https://mobile.twitter.com/unrealchill/statu
 
 ##  How to retrieve data
 
-Insert the micro SD into your PC's port / adapter. The filesystem won't be recognized (more on that later) but on OSX/Linux systems will be readable at a /dev/ location (in my case, /dev/disk2). Then run e.g.
+Either connect your Axon if you have the cable or open it and insert the micro SD into your PC's port / adapter (see below). The filesystem won't be recognized (more on that later) but on OSX/Linux systems will be readable at a /dev/ location (in my case, /dev/disk2). Then run e.g.
 
 `python3 haxon.py /dev/disk2 ~/hax/output/location`
 
-where the first arg is the location of the SD card and the second is where you would like the data to be outputted. Haxon copies the data over using `(g)dd` and then `foremost` to reconstitute the files and write them to disk. 
+where the first arg is the location of the SD card and the second is where you would like the data to be outputted. `Haxon` copies the data over using `(g)dd` and then `foremost` to reconstitute whatever files and write them to disk. 
 
 
 ## Why do this? // Implications
