@@ -11,6 +11,18 @@ Either connect your Axon if you have the cable or open it and insert the micro S
 
 where the first arg is the location of the SD card and the second is where you would like the data to be outputted. `Haxon` copies the data over using `(g)dd` and then `foremost` to reconstitute whatever files and write them to disk. 
 
+## How to retrieve data: command line
+(This is an alternative solution : I don't have Python, or do not want to use it)
+
+The solution is composed of the two following commands:
+
+`dd  if=/dev/disk2 of=~/hax/output/location/disk.img status=progress bs=1M`
+
+`foremost -dv -i ~/hax/output/location/disk.img -T`
+
+Where `/dev/disk2` is your source and `~/hax/output/location/disk.img` is the output. Obviously you can change these values to anything that makes sense for you.
+
+For information: the first command (`dd`) is a copy operation to save the data from the device to the selected memory space; the second command is a conversion/recovery operation to transform the data copied from the device in video format. 
 
 ## Why do this? // Implications
 First and foremost, this evidence is collected on the public and therefore belongs to the public. Evidence should be democratized and made available to all who wish to view it in full integrity. By design, these devices are meant to shield and conceal evidence and footage from the public - they are built with the police perspective in mind. By creating tools for civilians to extract the data from these devices, we are rightfully reclaiming what is ours. Secondly, the nature by which we are able to extract this data reveals significant holes in the chain of custody for evidence collection. It is demonstrably simple for the police (or other security parties) to erase footage and modify the contents of the device BEFORE any review, even by the proprietary app that is usually required to retrieve footage from these devices. 
