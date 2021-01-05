@@ -1,5 +1,5 @@
 # haxon
-Python 3 tooling to retrieve data from Axon Body Cams - aka the ones cops wear. This code should work for first and second generation non-online models.
+Python 3 tooling to retrieve data from Axon Body Cams. This code should work for first and second generation non-online models.
 
 Initial tweet threads & context here https://mobile.twitter.com/d0tslash/status/1278413772680507392 https://mobile.twitter.com/unrealchill/status/1283418136738496513
 
@@ -25,7 +25,7 @@ Where `/dev/disk2` is your source and `~/hax/output/location/disk.img` is the ou
 For information: the first command (`dd`) is a copy operation to save the data from the device to the selected memory space; the second command is a conversion/recovery operation to transform the data copied from the device in video format. 
 
 ## Why do this? // Implications
-First and foremost, this evidence is collected on the public and therefore belongs to the public. Evidence should be democratized and made available to all who wish to view it in full integrity. Secondly, the nature by which we are able to extract this data reveals significant holes in the chain of custody for evidence collection. It is demonstrably simple for the police (or other security parties) to erase footage and modify the contents of the device BEFORE any review, even by the proprietary app that is usually required to retrieve footage from these devices. 
+First and foremost, this evidence is collected on the public and therefore belongs to the public. Evidence should be democratized and made available to all who wish to view it in full integrity. Secondly, the nature by which we are able to extract this data reveals significant holes in the chain of custody for evidence collection. It is demonstrably simple for a party to erase footage and modify the contents of the device BEFORE any review, even by the proprietary app that is usually required to retrieve footage from these devices. 
 
 ## How to get the SD card
 
